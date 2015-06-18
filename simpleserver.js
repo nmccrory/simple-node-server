@@ -13,7 +13,6 @@ var server = http.createServer(function(request,response){
 			response.write(contents);
 			response.end();
 		});
-		return true;
 	}
 
 	//if request has no match
